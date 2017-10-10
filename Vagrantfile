@@ -34,7 +34,7 @@ Vagrant.configure("2") do |config|
 	else
 	echo "$username does not exist - Password could not be updated for $username";:          
 	exit 
-	fif
+	fif           
 	# Change the password
 	echo -e "$password1\n$password1" | passwd $username
 end
